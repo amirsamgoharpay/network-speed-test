@@ -1,4 +1,3 @@
-from pickle import PicklingError
 import speedtest
 net = speedtest.Speedtest()
 download = "{:.2f}".format(net.download()/1024/1024)
